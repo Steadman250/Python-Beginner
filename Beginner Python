@@ -1,0 +1,78 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMCKlkliW63ewlWfdLFxJBD",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Steadman250/Python-Beginner/blob/main/Beginner%20Python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 17,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_HhTe6WQ_aWt",
+        "outputId": "8bbe9b1d-60aa-49e1-ea0f-af7c877063e9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World\n",
+            "Hello World\n",
+            "adanyah steadman\n",
+            "['trek', 'redline', 'giant']\n",
+            "['trek', 'redline', 'giant']\n",
+            "['trek', 'redline', 'giant']\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hello World\")\n",
+        "msg = \"Hello World\"\n",
+        "print(msg)\n",
+        "first_name = 'adanyah'\n",
+        "last_name = 'steadman'\n",
+        "full_name = f\"{first_name} {last_name}\"\n",
+        "print(full_name)\n",
+        "\n",
+        "bikes = ['trek', 'redline', 'giant']\n",
+        "first_bike = bikes[0]\n",
+        "last_bike = bikes[-1]\n",
+        "for bike in bikes:\n",
+        "  print(bikes)\n",
+        "bikes = []\n",
+        "bikes.append('trek')\n",
+        "bikes.append('redline')\n",
+        "bikes.append('giant')\n",
+        "sqaures = []\n",
+        "for x in range(1, 11):\n",
+        "  sqaures.append(x**2)\n",
+        "\n"
+      ]
+    }
+  ]
+}
